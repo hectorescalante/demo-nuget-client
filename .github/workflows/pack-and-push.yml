@@ -30,4 +30,4 @@ jobs:
     - name: Pack
       run: dotnet pack --configuration Release --output .
     - name: Push
-      run: dotnet nuget push "Demo.NuGet.Client.1.0.0.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source "github"
+      run: dotnet nuget push "*.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source "github"

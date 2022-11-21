@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>Demo.NuGet.Client</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Hector Escalante</Authors>
+    <PackageDescription>This is a fake client for demo purposes.</PackageDescription>
+    <RepositoryUrl>https://github.com/hectorescalante/demo-nuget-client</RepositoryUrl>
+  </PropertyGroup>
+
 </Project>
